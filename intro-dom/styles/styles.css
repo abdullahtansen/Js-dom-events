@@ -1,0 +1,16 @@
+h1{
+    color: blue;
+}
+.important-place{
+    color: red;
+}
+.fruits-container li{
+    color: tomato;
+}
+.large-text{
+    font-size: 2em;
+}
+.text-center{
+    background-color: yellowgreen;
+    text-align: center;
+}

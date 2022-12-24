@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS DOM EVENS</title>
+</head>
+<body>
+    <h1>DOM ER AJKE SPECIAL EVENTS</h1>
+    <button onclick="console.log('i am clicked')">click me</button>
+    <button onclick="console.log(100)">another button</button>
+    <br />
+    <button onclick="document.body.style.backgroundColor ='yellow'">Make Yellow</button>
+    <button onclick="makeRed()">Make Red</button>
+    <button id="make-green">Make Green</button>
+    <button id="makePurple">Make Purple</button>
+    <button id="make-pink">make pink</button>
+    <button id="make-blue">make blue</button>
+    <button id="make-golden">Make GoldenRod</button>
+
+
+    <script src="js/events.js"></script>
+    <script>
+     document.getElementById('make-golden').addEventListener('click', function(){
+        document.body.style.background ='goldenrod';
+     })
+    </script>
+</body>
+</html>
